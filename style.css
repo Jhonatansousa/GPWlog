@@ -134,6 +134,9 @@
 }
 
 .button {
+  display: flex;
+  align-items: center;
+  gap: .3rem;
   text-decoration: none;
   color: white;
   margin-right: 350px;
@@ -141,6 +144,9 @@
   background-color: #2f86d6;
   padding: 18px;
   border-radius: 7px;
+}
+.whatsapp-icon {
+  width: 2rem;
 }
 
 .button:hover {
@@ -283,6 +289,9 @@ td:hover {
 }
 
 .button2 {
+  display: flex;
+  align-items: center;
+  gap: .3rem;
   text-decoration: none;
   color: white;
   margin-right: 350px;
